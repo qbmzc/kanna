@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/kanna.iml" filepath="$PROJECT_DIR$/.idea/kanna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kanna-cloud/kanna-admin/kanna-admin.iml" filepath="$PROJECT_DIR$/kanna-cloud/kanna-admin/kanna-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/kanna-cloud/kanna-cloud.iml" filepath="$PROJECT_DIR$/kanna-cloud/kanna-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kanna-cloud/kanna-data/kanna-data.iml" filepath="$PROJECT_DIR$/kanna-cloud/kanna-data/kanna-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kanna-cloud/kanna-gateway/kanna-gateway.iml" filepath="$PROJECT_DIR$/kanna-cloud/kanna-gateway/kanna-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/kanna-parent/kanna-parent.iml" filepath="$PROJECT_DIR$/kanna-parent/kanna-parent.iml" />
     </modules>
   </component>

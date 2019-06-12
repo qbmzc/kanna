@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        group: KANNA
+        file-extension: yaml
+  application:
+    name: kanna-data
+server:
+  port: 8082

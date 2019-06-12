@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kanna-data" />
+        <module name="kanna-admin" />
+        <module name="kanna-gateway" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kanna-cloud" target="1.5" />
+      <module name="kanna-admin" target="1.8" />
+      <module name="kanna-cloud" target="1.8" />
+      <module name="kanna-data" target="1.8" />
+      <module name="kanna-demo" target="1.8" />
+      <module name="kanna-gateway" target="1.8" />
       <module name="kanna-parent" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kanna-admin" options="" />
+      <module name="kanna-demo" options="-parameters" />
+    </option>
   </component>
 </project>
