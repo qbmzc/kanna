@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="kanna-cloud" target="1.5" />
       <module name="kanna-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
