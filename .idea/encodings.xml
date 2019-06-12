@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/kanna-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kanna-cloud/kanna-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kanna-cloud/kanna-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kanna-cloud/kanna-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kanna-cloud/kanna-gateway" charset="UTF-8" />
+  </component>
+</project>
