@@ -23,3 +23,12 @@
 hs_err_pid*
 
 *.gz
+将删除 .idea/SmartIM/history/d32c14fc33e0f56047b4a1b265110d1a
+将删除 .idea/SmartIM/media/
+将删除 kanna-cloud/kanna-data/target/generated-sources/
+将删除 kanna-cloud/kanna-data/target/generated-test-sources/
+将删除 kanna-cloud/kanna-gateway/target/classes/application.yml
+将删除 kanna-cloud/kanna-gateway/target/generated-sources/
+将删除 kanna-cloud/kanna-gateway/target/generated-test-sources/
+将删除 kanna-common/src/
+将删除 kanna-common/target/classes/
