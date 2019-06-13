@@ -1,0 +1,5 @@
+# nacos 本地配置
+spring:
+  cloud:
+    gateway:
+      routes:
