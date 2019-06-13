@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f6155b4-13ba-458f-9df2-a1c55e70333d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kanna-cloud/kanna-data/src/main/java/com/congco/kannadata/controller/DataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kanna-cloud/kanna-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kanna-cloud/kanna-gateway/src/main/resources/application.yml.bak" afterDir="false" />
-    </list>
+    <list default="true" id="2f6155b4-13ba-458f-9df2-a1c55e70333d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/kanna-parent/target/" />
     <ignored path="$PROJECT_DIR$/kanna-cloud/target/" />
     <ignored path="$PROJECT_DIR$/kanan-admin/target/" />
@@ -39,15 +35,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kanna-cloud/kanna-gateway/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kanna-cloud/kanna-gateway/src/main/resources/application.yml.bak">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -65,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kanna-cloud/kanna-data/src/main/java/com/congco/kannadata/controller/DataController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -74,6 +61,20 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kanna-cloud/kanna-admin/src/main/java/com/congco/kannaadmin/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -162,6 +163,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/kanna-cloud/kanna-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/kanna-cloud/kanna-data/src/main/java/com/congco/kannadata/controller/DataController.java" />
+        <option value="$PROJECT_DIR$/kanna-cloud/kanna-admin/src/main/java/com/congco/kannaadmin/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -334,17 +336,6 @@
               <item name="kanna" type="b2602c69:ProjectViewProjectNode" />
               <item name="kanna" type="462c0819:PsiDirectoryNode" />
               <item name="kanna-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="kanna-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kannadata" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kanna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kanna" type="462c0819:PsiDirectoryNode" />
-              <item name="kanna-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="kanna-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -506,7 +497,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560332456017</updated>
       <workItem from="1560332457850" duration="14912000" />
-      <workItem from="1560398133113" duration="3338000" />
+      <workItem from="1560398133113" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="feat(parent): #添加父类pom">
       <created>1560332721684</created>
@@ -564,16 +555,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560411411394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(gateway): #添加测试方法">
+      <created>1560411673758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560411673758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18250000" />
+    <option name="totallyTimeSpent" value="19080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="28" width="2560" height="1412" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="791" y="203" width="434" height="664" id="Project" order="0" visible="true" weight="0.19236884" />
+      <window_info content_ui="combo" x="791" y="203" width="434" height="664" id="Project" order="0" visible="true" weight="0.19236884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -596,7 +594,7 @@
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.41381988" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.41381988" />
       <window_info anchor="bottom" id="SmartIM" order="16" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -621,7 +619,8 @@
     <MESSAGE value="update(all): #修改文件结构2" />
     <MESSAGE value="update(all): #修改文件结构" />
     <MESSAGE value="feat(gateway): #添加gateway配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(gateway): #添加gateway配置" />
+    <MESSAGE value="feat(gateway): #添加测试方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(gateway): #添加测试方法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kanna-cloud/src/main/java/com/congco/kannaadmin/KannaAdminApplication.java" />
@@ -761,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -787,6 +786,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kanna-cloud/kanna-admin/src/main/java/com/congco/kannaadmin/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
