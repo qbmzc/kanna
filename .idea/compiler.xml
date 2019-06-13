@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="kanna-data" />
         <module name="kanna-admin" />
+        <module name="kanna-common" />
         <module name="kanna-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kanna" target="1.5" />
       <module name="kanna-admin" target="1.8" />
       <module name="kanna-cloud" target="1.8" />
+      <module name="kanna-common" target="1.5" />
       <module name="kanna-data" target="1.8" />
       <module name="kanna-demo" target="1.8" />
       <module name="kanna-gateway" target="1.8" />
