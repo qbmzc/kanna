@@ -3,3 +3,15 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: admin
+          uri: lb://kanna-admin
+          predicates:
+          - Path: /rest/admin/**
+          filters:
+            - StripPrefix=2
+        - id: admin
+          uri: lb://kanna-data
+          predicates:
+            - Path: /rest/data/**
+          filters:
+            - StripPrefix=2
